@@ -24,14 +24,9 @@ const IndexPage = () => (
           </li>
         </ul>
       </div>
-      <Scroll type="id" element="one">
-        <a href="#one" className="more">
-          Learn More
-        </a>
-      </Scroll>
     </section>
 
-    <section id="one" className="wrapper style1 special">
+    <section id="one" className="wrapper style2 special">
       <div className="inner">
         <header className="major">
           <h2>
@@ -67,7 +62,7 @@ const IndexPage = () => (
       </div>
     </section>
 
-    <section id="two" className="wrapper alt style2">
+    <section id="two" className="wrapper alt style5">
       <section className="spotlight">
         <div className="image">
           <img src={pic1} alt="" />

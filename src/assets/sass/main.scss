@@ -598,7 +598,7 @@
 		}
 
 		&.style1 {
-			color: _palette(accent2, bg);
+			color: _palette(accent3, bg);
 		}
 
 		&.style2 {
@@ -1774,7 +1774,10 @@
 	#main {
 		> header {
 			@include padding(12em, 0);
-			@include vendor('background-image', ('linear-gradient(to top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("../images/banner.jpg")'));
+			@include vendor('background-image', ('linear-gradient(to top, rgba(0,0,0,0.4), rgba(0,0,0,0.4))', 'url("../images/banner.jpg")'));
+			@include breakpoint('<=medium') {
+				@include vendor('background-image', ('linear-gradient(to top, rgba(0,0,0,0.4), rgba(0,0,0,0.4))', 'url("../images/banner1.jpg")'));
+			}
 			background-attachment: fixed;
 			background-position: center center;
 			background-repeat: no-repeat;
@@ -1807,6 +1810,7 @@
 
 			@include breakpoint('<=medium') {
 				@include padding(10em, 3em);
+
 			}
 
 			@include breakpoint('<=small') {
@@ -1887,6 +1891,7 @@
 		}
 
 		@include breakpoint('<=medium') {
+			@include vendor('background-image', ('linear-gradient(to top, rgba(0,0,0,0.4), rgba(0,0,0,0.4))', 'url("../images/banner1.jpg")'));
 			@include padding(4em, 3em);
 		}
 
@@ -1899,7 +1904,10 @@
 
 	body.landing, .main-body.landing {
 		#page-wrapper {
-			@include vendor('background-image', ('linear-gradient(to top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("../images/banner.jpg")'));
+			@include vendor('background-image', ('linear-gradient(to top, rgba(0,0,0,0.4), rgba(0,0,0,0.4))', 'url("../images/banner.jpg")'));
+			@include breakpoint('<=medium') {
+				@include vendor('background-image', ('linear-gradient(to top, rgba(0,0,0,0.4), rgba(0,0,0,0.4))', 'url("../images/banner1.jpg")'));
+			}
 			background-attachment: fixed;
 			background-position: center center;
 			background-repeat: no-repeat;
@@ -1920,7 +1928,10 @@
 
 			#banner,
 			.wrapper.style4 {
-				@include vendor('background-image', ('linear-gradient(to top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("../images/banner.jpg")'));
+				@include vendor('background-image', ('linear-gradient(to top, rgba(0,0,0,0.4), rgba(0,0,0,0.4))', 'url("../images/banner.jpg")'));
+				@include breakpoint('<=medium') {
+					@include vendor('background-image', ('linear-gradient(to top, rgba(0,0,0,0.4), rgba(0,0,0,0.4))', 'url("../images/banner1.jpg")'));
+				}
 				background-position: center center;
 				background-repeat: no-repeat;
 				background-size: cover;
