@@ -6,7 +6,6 @@
 @import 'libs/html-grid';
 @import 'fontawesome-all.min.css';
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,800,800italic');
-
 /*
 	Spectral by HTML5 UP
 	html5up.net | @ajlkn
@@ -454,7 +453,7 @@
 			color: _palette(fg);
 			cursor: pointer;
 			display: inline-block;
-			font-size: 1em;
+			font-size: .5em;
 			font-weight: _font(weight);
 			padding-left: (_size(element-height) * 0.6) + 0.75em;
 			padding-right: 0.75em;
