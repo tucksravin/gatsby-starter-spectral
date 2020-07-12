@@ -60,15 +60,15 @@ handleSubmit = (e) => {
             <div class="fields">
               <div class="field half">
                 <label for="name">Name</label>
-                <input type="text" name="name" id="name" />
+                <input type="text" name="name" id="name" onChange={this.handleChange}/>
               </div>
             <div class="field half">
               <label for="email">Email</label>
-              <input type="text" name="email" id="email" />
+              <input type="text" name="email" id="email" onChange={this.handleChange}/>
             </div>
             <div class="field">
               <label for="message">Message</label>
-              <textarea name="message" id="message" rows="4"></textarea>
+              <textarea name="message" id="message" rows="4" onChange={this.handleChange}></textarea>
             </div>
           </div>
           <ul class="actions">

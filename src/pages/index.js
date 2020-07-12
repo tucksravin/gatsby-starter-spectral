@@ -116,12 +116,15 @@ const IndexPage = () => (
         <li className="icon solid fa-cog">
           <h3>Caldea</h3>
           <p>
-            Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-            tincidunt nullam amet leo Aenean ligula consequat consequat.
+            In an Austenesque city served and policed by automata, a matchmaker finds a clockwork oracle and learns secrets that will expose the foundations of his society.
+            <br/><br/>
+            Caldea is a show about love masquerading as a show about authoritarian technocracy masquerading as a show about love.
+            <br/><br/>
+            Contact me if you'd like to read the pilot.
           </p>
         </li>
           <li className="icon solid fa-link">
-            <h3>Merida and the Floating City of Kai</h3>
+            <h3>Merida</h3>
             <p>
               Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
               tincidunt nullam amet leo Aenean ligula consequat consequat.
