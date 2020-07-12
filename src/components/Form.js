@@ -84,6 +84,12 @@ handleSubmit = (e) => {
     return(
       <section id="cta" className="wrapper style4">
         <div className="inner">
+        <form
+          name="contact"
+          method="POST"
+          data-netlify="true"
+          data-netlify-honeypot="bot-field"
+          onSubmit={this.handleSubmit} />
       <FormToggle clicked ={this.toggleFormOpen}>
         Contact Me
       </FormToggle>
