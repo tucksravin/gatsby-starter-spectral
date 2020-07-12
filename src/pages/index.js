@@ -123,22 +123,24 @@ const IndexPage = () => (
             Contact me if you'd like to read the pilot.
           </p>
         </li>
-          <li className="icon solid fa-link">
-            <h3>Merida</h3>
-            <p>
-              Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-              tincidunt nullam amet leo Aenean ligula consequat consequat.
-            </p>
-          </li>
+
           <li className="icon solid fa-broadcast-tower">
             <h3>FM</h3>
             <p>
-              Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-              tincidunt nullam amet leo Aenean ligula consequat consequat.
+              In a Pacfic Northwest long empty of people, a brother and sister rebuild community around a radio tower.
+              <br/><br/>
+              FM is an attempt to rebuild a notion of community, and
             </p>
           </li>
           <li className="icon solid fa-wind">
             <h3>The God of the Wind</h3>
+            <p>
+              Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
+              tincidunt nullam amet leo Aenean ligula consequat consequat.
+            </p>
+          </li>
+          <li className="icon solid fa-link">
+            <h3>Merida</h3>
             <p>
               Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
               tincidunt nullam amet leo Aenean ligula consequat consequat.
