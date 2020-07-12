@@ -47,7 +47,7 @@ handleSubmit = (e) => {
           <div className="inner">
         <form
           name="contact"
-          method="post"
+          method="POST"
           data-netlify="true"
           data-netlify-honeypot="bot-field"
           onSubmit={this.handleSubmit}>
