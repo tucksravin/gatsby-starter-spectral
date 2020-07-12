@@ -4,10 +4,9 @@ import Layout from '../components/Layout';
 
 import Scroll from '../components/Scroll';
 
+import Form from '../components/Form';
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faPenNib } from '@fortawesome/free-solid-svg-icons'
-import { faMicrophone } from '@fortawesome/free-solid-svg-icons'
-import { faVial } from '@fortawesome/free-solid-svg-icons'
 
 
 import pic1 from '../assets/images/pic01.jpg';
@@ -70,9 +69,7 @@ const IndexPage = () => (
         </div>
         <div className="content">
           <h2>
-            Magna primis lobortis
-            <br />
-            sed ullamcorper
+          I am a writer.
           </h2>
           <p>
             Aliquam ut ex ut augue consectetur interdum. Donec hendrerit
@@ -86,9 +83,7 @@ const IndexPage = () => (
         </div>
         <div className="content">
           <h2>
-            Tortor dolore feugiat
-            <br />
-            elementum magna
+            I am an improviser.
           </h2>
           <p>
             Aliquam ut ex ut augue consectetur interdum. Donec hendrerit
@@ -102,9 +97,7 @@ const IndexPage = () => (
         </div>
         <div className="content">
           <h2>
-            Augue eleifend aliquet
-            <br />
-            sed condimentum
+            I am a biologist.
           </h2>
           <p>
             Aliquam ut ex ut augue consectetur interdum. Donec hendrerit
@@ -114,89 +107,59 @@ const IndexPage = () => (
       </section>
     </section>
 
-    <section id="three" className="wrapper style3 special">
+    <section id="three" className="wrapper style2 special">
       <div className="inner">
         <header className="major">
-          <h2>Accumsan mus tortor nunc aliquet</h2>
-          <p>
-            Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet
-            eleifend
-            <br />
-            fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus
-            ullamcorper.
-          </p>
+          <h2>Here are some of the stories I'm telling.</h2>
         </header>
         <ul className="features">
-          <li className="icon fa-paper-plane">
-            <h3>Arcu accumsan</h3>
-            <p>
-              Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-              tincidunt nullam amet leo Aenean ligula consequat consequat.
-            </p>
-          </li>
-          <li className="icon solid fa-laptop">
-            <h3>Ac Augue Eget</h3>
-            <p>
-              Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-              tincidunt nullam amet leo Aenean ligula consequat consequat.
-            </p>
-          </li>
-          <li className="icon solid fa-code">
-            <h3>Mus Scelerisque</h3>
-            <p>
-              Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-              tincidunt nullam amet leo Aenean ligula consequat consequat.
-            </p>
-          </li>
-          <li className="icon solid fa-headphones-alt">
-            <h3>Mauris Imperdiet</h3>
-            <p>
-              Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-              tincidunt nullam amet leo Aenean ligula consequat consequat.
-            </p>
-          </li>
-          <li className="icon fa-heart">
-            <h3>Aenean Primis</h3>
-            <p>
-              Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-              tincidunt nullam amet leo Aenean ligula consequat consequat.
-            </p>
-          </li>
-          <li className="icon fa-flag">
-            <h3>Tortor Ut</h3>
-            <p>
-              Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-              tincidunt nullam amet leo Aenean ligula consequat consequat.
-            </p>
-          </li>
-        </ul>
-      </div>
-    </section>
-
-    <section id="cta" className="wrapper style4">
-      <div className="inner">
-        <header>
-          <h2>Arcue ut vel commodo</h2>
+        <li className="icon solid fa-cog">
+          <h3>Caldea</h3>
           <p>
-            Aliquam ut ex ut augue consectetur interdum endrerit imperdiet amet
-            eleifend fringilla.
+            Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
+            tincidunt nullam amet leo Aenean ligula consequat consequat.
           </p>
-        </header>
-        <ul className="actions stacked">
-          <li>
-            <a href="/#" className="button fit primary">
-              Activate
-            </a>
+        </li>
+          <li className="icon solid fa-link">
+            <h3>Merida and the Floating City of Kai</h3>
+            <p>
+              Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
+              tincidunt nullam amet leo Aenean ligula consequat consequat.
+            </p>
           </li>
-          <li>
-            <a href="/#" className="button fit">
-              Learn More
-            </a>
+          <li className="icon solid fa-broadcast-tower">
+            <h3>FM</h3>
+            <p>
+              Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
+              tincidunt nullam amet leo Aenean ligula consequat consequat.
+            </p>
+          </li>
+          <li className="icon solid fa-wind">
+            <h3>The God of the Wind</h3>
+            <p>
+              Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
+              tincidunt nullam amet leo Aenean ligula consequat consequat.
+            </p>
+          </li>
+          <li className="icon solid fa-water">
+            <h3>Crete</h3>
+            <p>
+              Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
+              tincidunt nullam amet leo Aenean ligula consequat consequat.
+            </p>
+          </li>
+          <li className="icon solid fa-adjust">
+            <h3>Slow Violence</h3>
+            <p>
+              Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
+              tincidunt nullam amet leo Aenean ligula consequat consequat.
+            </p>
           </li>
         </ul>
       </div>
     </section>
-  </Layout>
+      <Form />
+      </Layout>
 );
 
 export default IndexPage;

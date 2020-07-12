@@ -1723,10 +1723,13 @@
 
 /* CTA */
 
-	#cta {
+	#cta, #ctaDark {
+		transition: 1.6s;
+
 		.inner {
 			@include vendor('display', 'flex');
 			max-width: 45em;
+
 
 			header {
 				@include vendor('order', '1');
@@ -1736,11 +1739,17 @@
 				p {
 					color: inherit;
 				}
+
+
 			}
 
 			.actions {
-				@include vendor('order', '2');
 				width: 30%;
+				margin: auto;
+
+			}
+			.center{
+
 			}
 
 			@include breakpoint('<=medium') {
@@ -1773,9 +1782,9 @@
 	#main {
 		> header {
 			@include padding(12em, 0);
-			@include vendor('background-image', ('linear-gradient(to top, rgba(0,0,0,0.4), rgba(0,0,0,0.4))', 'url("../images/banner.jpg")'));
+			@include vendor('background-image', ('linear-gradient(to top, rgba(0,0,0,0.3), rgba(0,0,0,0.3))', 'url("../images/banner.jpg")'));
 			@include breakpoint('<=medium') {
-				@include vendor('background-image', ('linear-gradient(to top, rgba(0,0,0,0.4), rgba(0,0,0,0.4))', 'url("../images/banner1.jpg")'));
+				@include vendor('background-image', ('linear-gradient(to top, rgba(0,0,0,0.3), rgba(0,0,0,0.3))', 'url("../images/banner1.jpg")'));
 			}
 			background-attachment: fixed;
 			background-position: center center;
@@ -1859,7 +1868,6 @@
 			text-transform: uppercase;
 
 			li {
-				border-left: solid 1px _palette(fg-light);
 				display: inline-block;
 				line-height: 1em;
 				margin-left: 1em;
@@ -1890,7 +1898,7 @@
 		}
 
 		@include breakpoint('<=medium') {
-			@include vendor('background-image', ('linear-gradient(to top, rgba(0,0,0,0.4), rgba(0,0,0,0.4))', 'url("../images/banner1.jpg")'));
+			@include vendor('background-image', ('linear-gradient(to top, rgba(0,0,0,0.3), rgba(0,0,0,0.3))', 'url("../images/banner1.jpg")'));
 			@include padding(4em, 3em);
 		}
 
@@ -1903,9 +1911,9 @@
 
 	body.landing, .main-body.landing {
 		#page-wrapper {
-			@include vendor('background-image', ('linear-gradient(to top, rgba(0,0,0,0.4), rgba(0,0,0,0.4))', 'url("../images/banner.jpg")'));
+			@include vendor('background-image', ('linear-gradient(to top, rgba(0,0,0,0.3), rgba(0,0,0,0.3))', 'url("../images/banner.jpg")'));
 			@include breakpoint('<=medium') {
-				@include vendor('background-image', ('linear-gradient(to top, rgba(0,0,0,0.4), rgba(0,0,0,0.4))', 'url("../images/banner1.jpg")'));
+				@include vendor('background-image', ('linear-gradient(to top, rgba(0,0,0,0.3), rgba(0,0,0,0.3))', 'url("../images/banner1.jpg")'));
 			}
 			background-attachment: fixed;
 			background-position: center center;
@@ -1927,9 +1935,9 @@
 
 			#banner,
 			.wrapper.style4 {
-				@include vendor('background-image', ('linear-gradient(to top, rgba(0,0,0,0.4), rgba(0,0,0,0.4))', 'url("../images/banner.jpg")'));
+				@include vendor('background-image', ('linear-gradient(to top, rgba(0,0,0,0.3), rgba(0,0,0,0.3))', 'url("../images/banner.jpg")'));
 				@include breakpoint('<=medium') {
-					@include vendor('background-image', ('linear-gradient(to top, rgba(0,0,0,0.4), rgba(0,0,0,0.4))', 'url("../images/banner1.jpg")'));
+					@include vendor('background-image', ('linear-gradient(to top, rgba(0,0,0,0.3), rgba(0,0,0,0.3))', 'url("../images/banner1.jpg")'));
 				}
 				background-position: center center;
 				background-repeat: no-repeat;

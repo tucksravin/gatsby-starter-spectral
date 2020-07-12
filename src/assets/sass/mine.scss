@@ -1,0 +1,26 @@
+@import 'libs/vars';
+@import 'libs/functions';
+@import 'libs/mixins';
+@import 'libs/vendor';
+
+
+
+.half{
+  width: 70%;
+}
+
+form{
+  width: 100%;
+}
+
+textarea, label, input{
+  margin-bottom: 5px;
+}
+
+#ctaDark{
+  background-color: darken(transparentize(_palette(bg), 0.1), 0.5);
+}
+
+.actions{
+  align-items: flex-end;
+}
