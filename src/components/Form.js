@@ -41,7 +41,7 @@ handleSubmit = (e) => {
 
   render(){
 
-    if(this.state.open){
+    //if(this.state.open){
       return(
         <section id="ctaDark" className="wrapper style4 darken">
           <div className="inner">
@@ -79,8 +79,8 @@ handleSubmit = (e) => {
         </div>
       </section>
         );
-      }
-    else{
+      //}
+    /* else{
     return(
       <section id="cta" className="wrapper style4">
         <div className="inner">
@@ -97,7 +97,7 @@ handleSubmit = (e) => {
     </section>
 
   );
-  }
+} */
   }
 }
 
