@@ -4,14 +4,35 @@ import FormToggle from './FormToggle'
 import { navigate } from 'gatsby-link'
 
 import config from '../../config';
+import classes from '../assets/sass/mine.module.scss'
 
 class Form extends Component{
 
-  state = {open: false,}
+  state = {
+            open: false,
+            dark: null,
+            formVis: "hidden",
+            buttonVis: "show"
+          }
 
   toggleFormOpen = () => {
   this.setState({ open: !this.state.open });
+  if(this.state.open)
+  {
+    this.setState({
+      dark: "dark",
+      formVis: "show",
+      buttonVis: "hidden"
+    });
+  }
+  else{
+    this.setState({
+      dark: null,
+      formVis: "hidden",
+      buttonVis: "show"
+    });
 };
+}
 
 encode = (data) => {
   return Object.keys(data)
@@ -41,10 +62,18 @@ handleSubmit = (e) => {
 
   render(){
 
-    //if(this.state.open){
+
       return(
-        <section id="ctaDark" className="wrapper style4 darken">
-          <div className="inner">
+        <section id="ctaDark" class={"wrapper style4 "+this.state.dark}>
+        <div class={"inner " +this.state.buttonVis}>
+        <FormToggle clicked ={this.toggleFormOpen}>
+          Contact Me
+        </FormToggle>
+
+        </div>
+
+          <div class={"inner " +this.state.formVis}>
+
         <form
           name="contact"
           method="POST"
@@ -79,25 +108,6 @@ handleSubmit = (e) => {
         </div>
       </section>
         );
-      //}
-    /* else{
-    return(
-      <section id="cta" className="wrapper style4">
-        <div className="inner">
-        <form
-          name="contact"
-          method="POST"
-          data-netlify="true"
-          data-netlify-honeypot="bot-field"
-          onSubmit={this.handleSubmit} />
-      <FormToggle clicked ={this.toggleFormOpen}>
-        Contact Me
-      </FormToggle>
-      </div>
-    </section>
-
-  );
-} */
   }
 }
 

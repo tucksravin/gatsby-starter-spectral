@@ -6,7 +6,6 @@ import Scroll from '../components/Scroll';
 
 import Form from '../components/Form';
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 
 import pic1 from '../assets/images/pic01.jpg';

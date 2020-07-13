@@ -5,12 +5,17 @@
 
 
 
-.half{
-  width: 70%;
-}
+
 
 form{
   width: 100%;
+
+  .hidden{
+    visibility: collapse;
+  }
+  .show{
+    visibility: visible;
+  }
 }
 
 textarea, label, input{

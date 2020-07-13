@@ -4,7 +4,7 @@ import Helmet from 'react-helmet';
 import { StaticQuery, graphql } from 'gatsby';
 
 import '../assets/sass/main.scss';
-import '../assets/sass/mine.scss';
+import '../assets/sass/mine.module.scss';
 
 import Footer from './Footer';
 import SideBar from './Sidebar';
