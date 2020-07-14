@@ -71,8 +71,7 @@ const IndexPage = () => (
           I am a writer.
           </h2>
           <p>
-            Aliquam ut ex ut augue consectetur interdum. Donec hendrerit
-            imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.
+            I write scripts, short stories, and storygames. <Scroll type="id" element="three"><a href="/#">Here's</a></Scroll> some of my work.
           </p>
         </div>
       </section>
@@ -85,8 +84,8 @@ const IndexPage = () => (
             I am an improviser.
           </h2>
           <p>
-            Aliquam ut ex ut augue consectetur interdum. Donec hendrerit
-            imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.
+            I host and produce <a href="https://sceneplay.fireside.fm/">Scene Play</a>,
+            an actual play storygaming podcast.
           </p>
         </div>
       </section>
@@ -99,8 +98,8 @@ const IndexPage = () => (
             I am a biologist.
           </h2>
           <p>
-            Aliquam ut ex ut augue consectetur interdum. Donec hendrerit
-            imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.
+            I study the role of Hedgehog signaling in hematopoietic malignancies
+             in <a href="https://www.cedars-sinai.org/research/labs/merchant.html">the Merchant Lab</a> at Cedars-Sinai.
           </p>
         </div>
       </section>
@@ -126,9 +125,11 @@ const IndexPage = () => (
           <li className="icon solid fa-broadcast-tower">
             <h3>FM</h3>
             <p>
-              In a Pacfic Northwest long empty of people, a brother and sister rebuild community around a radio tower.
+              In a Pacfic Northwest indifferent to and long empty of people, a brother and sister create a society centered on a rusted radio tower.
+              <br/><br/><br/>
+              FM is an attempt to rebuild a notion of community, and to meditate on relationships not mediated by institution.
               <br/><br/>
-              FM is an attempt to rebuild a notion of community, and
+
             </p>
           </li>
           <li className="icon solid fa-wind">
