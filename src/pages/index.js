@@ -8,6 +8,8 @@ import Form from '../components/Form';
 
 
 
+
+
 import pic1 from '../assets/images/pic01.jpg';
 import pic2 from '../assets/images/pic02.jpg';
 import pic3 from '../assets/images/pic03.jpg';
@@ -32,6 +34,7 @@ const IndexPage = () => (
 
     <section id="one" className="wrapper style2 special">
       <div className="inner">
+
         <header className="major">
           <h2>
             I am a storyteller.
@@ -114,56 +117,73 @@ const IndexPage = () => (
         <li className="icon solid fa-cog">
           <h3>Caldea</h3>
           <p>
-            In an Austenesque city served and policed by automata, a matchmaker finds a clockwork oracle and learns secrets that will expose the foundations of his society.
+            <i>there is no possible path but the one you have tread</i>
             <br/><br/>
             Caldea is a show about love masquerading as a show about authoritarian technocracy masquerading as a show about love.
             <br/><br/>
-            Contact me if you'd like to read the pilot.
+            <Scroll type="id" element="ctaDark"><a href="/#">Contact me</a></Scroll> if you'd like to read the pilot or the pitch.
           </p>
         </li>
 
           <li className="icon solid fa-broadcast-tower">
             <h3>FM</h3>
             <p>
-              In a Pacfic Northwest indifferent to and long empty of people, a brother and sister create a society centered on a rusted radio tower.
-              <br/><br/><br/>
-              FM is an attempt to rebuild a notion of community, and to meditate on relationships not mediated by institution.
+              <i>this isn't a western and Martin isn't a gunslinger</i>
               <br/><br/>
+              FM (placeholder title) is an attempt to rebuild a notion of community, and to meditate on relationships unmediated by institution.
+              <br/><br/>
+              This is the pilot I am currently working on.
 
             </p>
           </li>
           <li className="icon solid fa-wind">
             <h3>The God of the Wind</h3>
             <p>
-              Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-              tincidunt nullam amet leo Aenean ligula consequat consequat.
+              <i> a cry, a scream, a noise without intent.</i>
+
+              <br/> <br/><br/>
+              The God of the Wind is a short story about media, religion, and identity. It's rather blunt.
+
+              <br/> <br/>
+
+              You can find a pdf of it <a href="https://www.dropbox.com/s/l4k3kbtbohr6o1v/The%20God%20of%20the%20Wind%20Current.pdf?dl=0">here.</a>
             </p>
           </li>
           <li className="icon solid fa-link">
             <h3>Merida</h3>
             <p>
-              Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-              tincidunt nullam amet leo Aenean ligula consequat consequat.
+            <i>the City in the Sky, the Bridge of the World, the Chained Isles.</i>
+              <br/> <br/>
+              Merida and the Floating City of Kai is an audiodrama about obligation and responsibility.
+              <br/><br/>
+              You can find the script <a href="https://www.dropbox.com/s/wqza0ovho4acgg5/Merida%20v4.pdf?dl=0">here.</a> The audiodrama will be in the Scene Play feed winter 2020.
+
             </p>
           </li>
           <li className="icon solid fa-water">
             <h3>Crete</h3>
             <p>
-              Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-              tincidunt nullam amet leo Aenean ligula consequat consequat.
+              <i>in falling I earned your love</i>
+              <br/> <br/> <br/>
+              Crete is a three-act musical about the relationship of Minos and Daedalus.
+              <br/> <br/>
+              If you're interested in hearing some of the music <Scroll type="id" element="ctaDark"><a href="/#">contact me.</a></Scroll>
             </p>
           </li>
           <li className="icon solid fa-adjust">
             <h3>Slow Violence</h3>
             <p>
-              Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-              tincidunt nullam amet leo Aenean ligula consequat consequat.
+              <i>relict: a population or individual that represents the last of its kind</i>
+              <br/> <br/>
+              Slow Violence is a storygame about violences that take longer than a moment to take their toll.
+              <br/><br/>
+              It is in playtesting, <Scroll type="id" element="ctaDark"><a href="/#">contact me</a></Scroll> if you would like a packet.
             </p>
           </li>
         </ul>
       </div>
     </section>
-      <Form />
+      <Form/>
       </Layout>
 );
 

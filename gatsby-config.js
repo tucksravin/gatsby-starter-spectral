@@ -1,5 +1,7 @@
 const config = require('./config');
 
+
+
 module.exports = {
   pathPrefix: config.pathPrefix,
   siteMetadata: {
@@ -19,7 +21,10 @@ module.exports = {
         icon: config.manifestIcon, // This path is relative to the root of the site.
       },
     },
+
     'gatsby-plugin-sass',
     'gatsby-plugin-offline',
+    `gatsby-transformer-sharp`,
+     `gatsby-plugin-sharp`
   ],
 };

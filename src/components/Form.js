@@ -9,7 +9,7 @@ import classes from '../assets/sass/mine.module.scss'
 class Form extends Component{
 
   state = {
-            open: false,
+            open: true,
             dark: null,
             formVis: "hidden",
             buttonVis: "show"
