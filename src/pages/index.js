@@ -139,7 +139,7 @@ const IndexPage = () => (
           <li className="icon solid fa-wind">
             <h3>The God of the Wind</h3>
             <p>
-              <i> a cry, a scream, a noise without intent.</i>
+              <i> a cry, a scream, a noise without intent</i>
 
               <br/> <br/><br/>
               The God of the Wind is a short story about media, religion, and identity. It's rather blunt.
@@ -152,7 +152,7 @@ const IndexPage = () => (
           <li className="icon solid fa-link">
             <h3>Merida</h3>
             <p>
-            <i>the City in the Sky, the Bridge of the World, the Chained Isles.</i>
+            <i>the City in the Sky, the Bridge of the World, the Chained Isles</i>
               <br/> <br/>
               Merida and the Floating City of Kai is an audiodrama about obligation and responsibility.
               <br/><br/>
