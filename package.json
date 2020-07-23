@@ -7,8 +7,8 @@
     "url": "git+https://github.com/anubhavsrivastava/gatsby-starter-spectral.git"
   },
   "author": {
-    "name": "Anubhav Srivastava",
-    "email": "anubhav.srivastava00@gmail.com"
+    "name": "Tucker Lemos",
+    "email": "contact@tuckerlemos.com"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.28",
