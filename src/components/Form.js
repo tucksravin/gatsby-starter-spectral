@@ -101,7 +101,7 @@ handleSubmit = (e) => {
             </div>
           </div>
           <ul class="actions">
-            <li><input type="submit" value="Send Message" class="primary" /></li>
+            <li><input type="submit" value="Send Message" class="primary" onClick={this.toggleFormOpen} /></li>
             <li><input type="reset" value="Reset" onClick={this.toggleFormOpen} /></li>
           </ul>
         </form>
