@@ -48,8 +48,8 @@ class Layout extends Component {
             <Helmet
               title={data.site.siteMetadata.title}
               meta={[
-                { name: 'description', content: 'Spectral' },
-                { name: 'keywords', content: 'site, web' },
+                { name: 'description', content: 'This site is the home of Tucker Lemos Creative, or Incidental Fox Productions on the internet. ' },
+                { name: 'keywords', content: 'Tucker Lemos, Tucker, Lemos, Scene, Play, Tucker Lemos, Scene Play, Podcast, Scene Play Podcast, Caldea, Merida, Incidental Fox' },
               ]}
             >
               <html lang="en" />
