@@ -47,17 +47,17 @@ const IndexPage = () => (
         <ul className="icons major">
           <li>
             <span className="icon solid fa-pen major style3">
-              <span className="label">Lorem</span>
+              <span className="label"></span>
             </span>
           </li>
           <li>
             <span className="icon solid fa-microphone major style3">
-              <span className="label">Ipsum</span>
+              <span className="label"></span>
             </span>
           </li>
           <li>
             <span className="icon solid fa-vial major style3">
-              <span className="label">Dolor</span>
+              <span className="label"></span>
             </span>
           </li>
         </ul>
