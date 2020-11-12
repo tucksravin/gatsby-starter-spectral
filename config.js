@@ -1,5 +1,5 @@
 module.exports = {
-  siteTitle: 'Incidental Fox', // <title>
+  siteTitle: 'Tucker Lemos', // <title>
   manifestName: 'Tucker Lemos',
   manifestShortName: 'Landing', // max 12 characters
   manifestStartUrl: '/',
