@@ -9,6 +9,7 @@ import '../assets/sass/mine.module.scss';
 import Footer from './Footer';
 import SideBar from './Sidebar';
 
+
 class Layout extends Component {
   constructor(props) {
     super(props);
@@ -21,6 +22,8 @@ class Layout extends Component {
     this.timeoutId = setTimeout(() => {
       this.setState({ isPreloaded: false });
     }, 100);
+
+
   }
 
   componentWillUnmount() {
