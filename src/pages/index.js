@@ -156,7 +156,7 @@ const IndexPage = () => (
               <br/> <br/>
               Merida and the Floating City of Kai is an audiodrama about obligation and responsibility.
               <br/><br/>
-              You can find the script <a href="https://www.dropbox.com/s/wqza0ovho4acgg5/Merida%20v4.pdf?dl=0">here.</a> The audiodrama will be in the Scene Play feed winter 2020.
+              You can find the script <a href="https://www.dropbox.com/s/wqza0ovho4acgg5/Merida%20v4.pdf?dl=0">here.</a> The audiodrama will be in the Scene Play feed summer 2021.
 
             </p>
           </li>
