@@ -144,9 +144,6 @@ const IndexPage = () => (
               <br/> <br/><br/>
               The God of the Wind is a short story about media, religion, and identity. It's rather blunt.
 
-              <br/> <br/>
-
-              You can find a pdf of it <a href="https://www.dropbox.com/s/l4k3kbtbohr6o1v/The%20God%20of%20the%20Wind%20Current.pdf?dl=0">here.</a>
             </p>
           </li>
           <li className="icon solid fa-link">
@@ -155,10 +152,7 @@ const IndexPage = () => (
             <i>the City in the Sky, the Bridge of the World, the Chained Isles</i>
               <br/> <br/>
               Merida and the Floating City of Kai is an audiodrama about obligation and responsibility.
-              <br/><br/>
-              You can find the script <a href="https://www.dropbox.com/s/wqza0ovho4acgg5/Merida%20v4.pdf?dl=0">here.</a> The audiodrama will be in the Scene Play feed summer 2021.
-
-            </p>
+              </p>
           </li>
           <li className="icon solid fa-water">
             <h3>Crete</h3>
